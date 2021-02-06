@@ -1,0 +1,22 @@
+<body class="bg-indigo-400">
+    
+    <div class="flex justify-center items-center h-screen">
+        
+        <!--login-->
+        <div class="w-full sm:w-auto sm:flex bg-white shadow-lg p-5  mx-3 rounded-lg">
+            <div class="sm:m-5">
+                <img src="yate.png" alt="" class="w-24 h-24 rounded-full m-auto shadow-md p-3 my-5">
+            </div>
+            <div class="sm:pl-5">
+                <label class="text-gray-700 font-medium block mb-3">E-mail</label>
+                <input type="text" class="w-full border border-indigo-500 focus:outline-none rounded-md py-2 px-3 mb-3" placeholder="Ingrese su E-mail" />
+                <label class="text-gray-700 font-medium block mb-3">Contraseña</label>
+                <input type="password" class="w-full border border-indigo-500 focus:outline-none rounded-md py-2 px-3 mb-3" placeholder="Ingrese su contraseña" />
+                <button class="rounded-full bg-indigo-600 text-white focus:outline-none font-medium px-6 py-2 block m-auto">Enviar</button>
+            </div>
+        </div>
+        <!--/login-->
+        
+    </div>
+
+</body>
